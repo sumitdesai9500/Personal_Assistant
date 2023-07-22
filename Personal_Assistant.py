@@ -83,7 +83,7 @@ if __name__ == '__main__':
 
         elif 'who made you' in query or 'who developed you' in query:                             # Check if the query contains the phrase 'who made you'
             speak('okay')                                       # Respond to the user
-            webbrowser.open('I was Developed by Sumit')                    
+            webbrowser.open('I was Developed by Sumit and team')                    
         
         elif "what\'s up" in query or 'how are you' in query:                                                   # Check if the query contains the phrases 'what's up' or 'how are you'
             stMsgs = ['Just doing my thing!', 'I am fine!', 'Nice!', 'I am nice and full of energy']            # List of possible responses
