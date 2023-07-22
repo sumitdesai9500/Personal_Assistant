@@ -14,7 +14,7 @@ import pygame                                                                   
 engine = pyttsx3.init('sapi5')
 
 # Create a client object to access the Wolfram|Alpha API. Please create your APPID by going to Wolframalpha website
-client = wolframalpha.Client('5H92AH-A3X9PW2RU4')
+client = wolframalpha.Client('Enter_Your_Wolframe_id')
 
 # Retrieve the list of available voices and set the last voice as the desired voice for speech synthesis
 voices = engine.getProperty('voices')
